@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@300&display=swap');
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+hr {
+    color: #32a852;
+    display: block;
+    height: 20px;
+    border: 0;
+    border-top: 3px solid #32a852;
+    margin: auto;
+    padding: 0;
+    width: 50px;
+}
+
+.button-container {
+    border-radius: 60px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 30px;
+    margin: auto;
+    padding: 15px;
+    width: 200px;
+}
+
+.button {
+    background-color: #cbf7d7;
+    border: none;
+    border-radius: 60px;
+    color: #32a852;
+    font-family: 'Roboto', sans-serif;
+    padding: 11px;
+    width: 95px;
+}
+
+.button:hover {
+    background-color: #32a852;
+    color: #fafafa;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.fas {
+    background-color: #32a852;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fafafa;
+    max-width: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+}
+
+.number {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.plan {
+    color: #aaaaaa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+ul {
+    margin-top: 0px;
+    padding: 0;
+}
+
+li {
+    color: #aaaaaa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.signup {
+    background-color: #32a852;
+    border: none;
+    border-radius: 20px;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 15px 35px;
+    width: 200px;
+}
+
+@media (min-width: 600px) {
+    .column-container {
+        flex-direction: row;
+        margin: auto;
+        margin-top: 30px;
+        max-width: 1000px;
+    }
+}

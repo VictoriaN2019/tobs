@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="https://kit.fontawesome.com/3a72fce2a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Pricing Toggle</h1>
+    <hr></hr>
+    <div class="button-container" id="button-container">
+        <button class="button" id="buttonMonthly" onclick="reload()">Monthly</button>
+        <button class="button" id="buttonAnnually" onclick="toggle()">Annually</button>
+    </div>
+    <div class="column-container">
+        <div class="column">
+            <h2 class="title">Basic</h2>
+            <i class="fas fa-chart-pie"></i>
+            <div class="price">
+                <div class="number">$39</div>
+                <p class="plan" className="plan" id="plan">/Monthly</p>
+            </div>
+            <ul>
+                <li>1 Gb Diskspace</li>
+                <li>10 Gb Bandwitth</li>
+                <li>2 Email Adress</li>
+                <li>Wordpress Installs</li>
+                <li>Private Support</li>
+            </ul>
+            <button class="signup">Sign Up</button>
+        </div>
+        <div class="column">
+            <h2 class="title">Premium</h2>
+            <i class="fas fa-chart-line"></i>
+            <div class="price">
+                <div class="number">$49</div>
+                <p class="plan" className="plan" id="plan">/Monthly</p>
+            </div>
+            <ul>
+                <li>5 Gb Diskspace</li>
+                <li>50 Gb Bandwitth</li>
+                <li>4 Email Adress</li>
+                <li>Wordpress Installs</li>
+                <li>Private Support</li>
+            </ul>
+            <button class="signup">Sign Up</button>
+        </div>
+        <div class="column">
+            <h2 class="title">Business</h2>
+            <i class="fas fa-city"></i>
+            <div class="price">
+                <div class="number">$59</div>
+                <p class="plan" className="plan" id="plan">/Monthly</p>
+            </div>
+            <ul>
+                <li>20 Gb Diskspace</li>
+                <li>100 Gb Bandwitth</li>
+                <li>10 Email Address</li>
+                <li>Wordpress Installs</li>
+                <li>Private Support</li>
+            </ul>
+            <button class="signup">Sign Up</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="toggle.js"></script>
+</body>
+</html>
